@@ -35,17 +35,17 @@ const EighthSimulator = () => {
                 <CustomInput value={'8'}/>
                 <CustomInput value={'5'}/>
                 <Equals/>
-                <CustomInput value={'2  '}/>
+                <CustomInput trueNum={'2'}/>
                 <Comma/>
-                <CustomInput value={'7'}/>
+                <CustomInput trueNum={'7'}/>
                 <Dot/>
-                <CustomInput value={'0'}/>
+                <CustomInput trueNum={'0'}/>
                 <Comma/>
-                <CustomInput value={'8'}/>
-                <CustomInput value={'5'}/>
+                <CustomInput trueNum={'8'}/>
+                <CustomInput trueNum={'5'}/>
             </div>
-            <div className="flex justify-center pr-8 pt-12">
-                <div className="rounded-2xl ml-16 bg-orange-300">
+            <div className="flex justify-center pr-8 pt-8">
+                <div className="rounded-2xl ml-16 bg-orange-200">
                     <span className="flex py-1 px-2 font-medium text-center">Нажми,<br></br> запятая пропадет</span>
                 </div>
             </div>
