@@ -15,13 +15,13 @@
   },
 
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm run tailwind:css && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tailwind:css": "tailwind build ./src/css/tailwind.css -c tailwind.config.js -o ./src/css/app.css",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "tailwind:css": "tailwind build ./src/css/tailwind.css -c tailwind.config.js -o ./src/css/app.css"
   },
   "eslintConfig": {
     "extends": [
