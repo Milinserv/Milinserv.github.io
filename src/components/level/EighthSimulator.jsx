@@ -139,7 +139,7 @@ const EighthSimulator = () => {
                     </> : <></>
                 }
             </div>
-{/*test*/}
+
             {
                 isVisible && !viewMultByColumn ? <div className="pl-16 pt-6">
                     <InfoBlock className={'bg-orange-200'}
@@ -150,7 +150,7 @@ const EighthSimulator = () => {
                 viewResultCalc && <div className="flex justify-start pt-6 pl-14">
                     <InfoBlock className={"flex bg-orange-300"} label={"Сколько знаков <br /> после зяпятой"}/>
                     <div className="pt-2">
-                        <CustomInput className={cn('border-sky-400 bg-sky-200', {"bg-green-100 border-green-300": numberOfSymbols})} trueNum={'3'} stateValue={setNumberOfSymbols}/>
+                        <CustomInput className={cn({"bg-green-100 border-green-300": numberOfSymbols}, "border-sky-400 bg-sky-200")} trueNum={'3'} stateValue={setNumberOfSymbols}/>
                     </div>
                 </div>
             }
