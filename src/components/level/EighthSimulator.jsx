@@ -139,7 +139,7 @@ const EighthSimulator = () => {
                     </> : <></>
                 }
             </div>
-
+{/*test*/}
             {
                 isVisible && !viewMultByColumn ? <div className="pl-16 pt-6">
                     <InfoBlock className={'bg-orange-200'}
