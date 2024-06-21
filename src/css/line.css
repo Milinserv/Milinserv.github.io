@@ -1,13 +1,8 @@
-.pointer, .pointer-reversed {
-    position: relative;
-    line-height: 20px;
-}
-
 .pointer::before {
     content: "";
     position: absolute;
     top: -5px;
-    transform: translateX(-2000%) rotate(40deg);
+    transform: translateX(30px) rotate(45deg);
     width: 0;
     height: 100px;
     border: 1px solid #333;
@@ -18,9 +13,23 @@
     content: "";
     position: absolute;
     top: -5px;
-    transform: translateX(2000%) rotate(-40deg);
+    transform: translateX(110px) rotate(-45deg);
     width: 0;
     height: 100px;
     border: 1px solid #333;
     border-top: none;
+}
+
+.skew-down {
+    width: 60px;
+    height: 3px;
+    background-color: gray;
+    transform: skewY(-60deg);
+}
+
+.skew-down-r {
+    width: 60px;
+    height: 3px;
+    background-color: gray;
+    transform: skewY(60deg);
 }
