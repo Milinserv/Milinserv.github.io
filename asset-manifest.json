@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.9609b65d.css",
-    "main.js": "/static/js/main.89a07e10.js",
+    "main.css": "/static/css/main.779ef26d.css",
+    "main.js": "/static/js/main.47dc8799.js",
     "static/media/multiplicationTable.svg": "/static/media/multiplicationTable.fd47b462787c0e470bfaafc12b326787.svg",
     "static/media/goodboy.svg": "/static/media/goodboy.03b9b2d9183c30d56a615ac16c6b9cb5.svg",
     "static/media/logo.svg": "/static/media/logo.4a9453b74ca5df36e5543d2aad92d148.svg",
+    "static/media/close.svg": "/static/media/close.f1d45f5f1d719719e86594dff598c9d7.svg",
     "static/media/x-mark.svg": "/static/media/x-mark.9ca4f4de55bb5030f5881f7c888baeaa.svg",
     "static/media/comma.svg": "/static/media/comma.ce34643703c78d1ad18210d4db2f351a.svg",
     "index.html": "/index.html",
+    "static/media/multiply.svg": "/static/media/multiply.d0521c975cdf8502f729a7c561b25953.svg",
+    "static/media/plus.svg": "/static/media/plus.2415b72599fef6495d8f3b3aedb22278.svg",
     "static/media/dot.svg": "/static/media/dot.532b8670fbb21cf74de483b04f9819d2.svg",
-    "main.9609b65d.css.map": "/static/css/main.9609b65d.css.map",
-    "main.89a07e10.js.map": "/static/js/main.89a07e10.js.map"
+    "main.779ef26d.css.map": "/static/css/main.779ef26d.css.map",
+    "main.47dc8799.js.map": "/static/js/main.47dc8799.js.map"
   },
   "entrypoints": [
-    "static/css/main.9609b65d.css",
-    "static/js/main.89a07e10.js"
+    "static/css/main.779ef26d.css",
+    "static/js/main.47dc8799.js"
   ]
 }
